@@ -1,5 +1,5 @@
 # PD-Control-SIPR-Lab
-## PD Joint Space Control of a Soft Inverted Pendulum Robot in PyElastica Python (Case where 3 segments are attached in series and kept in a plane and fixed at one end)
+## PD Joint Space Control of a Soft Robot in PyElastica Python (Case where 3 segments are attached in series and kept in a plane and fixed at one end)
 
 ### Installation
 See [2] for instructions on Installation and Documentation of PyElastica. You may need to downgrade (install earlier version) numba version apart from
