@@ -6,19 +6,24 @@ PLOT_FIGURE = True
 PLOT_VIDEO = False # If set to True, will take a huge amount of time
 SAVE_FIGURE = False
 SAVE_RESULTS = True
-final_time = 20.0 # Try 10 or 15 if want to check/debug and save time
+final_time = 20.0 # Try 10 or 15 secs if want to check/debug and save time
 
 # setting up test params
+# All in SI units
+# no. of elements in one rod
 n_elem = 50
+# Origin position, direction along rod and direction normal to rod
 start = np.zeros((3,))
 direction = np.array([-1.0, 0.0, 0.0])
 normal = np.array([0.0, 0.0, 1.0])
+# Initial Length and radius of one rod/segment
 base_length = 0.13
 base_radius = 0.01416
 base_area = np.pi*(base_radius**2)
 density = 1180.0
+# Energy dissipation nu
 nu = 10 # Try 7 instead for Task Space Control
-youngs_modulus = 3.79e6
+youngs_modulus = 3.79e6 
 poisson_ratio = 0.5
 shear_modulus = youngs_modulus/(2*(1+poisson_ratio))
 
