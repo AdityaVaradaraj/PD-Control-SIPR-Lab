@@ -1,11 +1,11 @@
 import numpy as np
 
 # Options
-PLOT_POSITIONS = True
-PLOT_FIGURE = True
-PLOT_VIDEO = False # If set to True, will take a huge amount of time
+PLOT_POSITIONS = True # If set to True, positions are plotted at each time in plotter.py. Final position of rods setup will be bolder than others
+PLOT_FIGURE = True 
+PLOT_VIDEO = False # If set to True, will take a huge amount of time to make a video of the simulation showing the rod moving
 SAVE_FIGURE = False
-SAVE_RESULTS = True
+SAVE_RESULTS = True # If set to True, creates .dat files to save the rod history during the numerical integration.
 final_time = 20.0 # Try 10 or 15 secs if want to check/debug and save time
 
 # setting up test params
