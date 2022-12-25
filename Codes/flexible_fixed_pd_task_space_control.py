@@ -189,7 +189,7 @@ def TaskFeedBack(rod_number):
          
         K_p = 3.3275
         K_d = 0.075
-        k = 0.942
+        k = 0.942 # Stiffness (N-m/rad)
         torque = np.dot(np.transpose(J_s), (-K_p*(X - X_des) - K_d* (X_dot-X_des_dot)))
         torque += k*np.array([[q_0_1],[q_0_2],[q_0_3]])
         
