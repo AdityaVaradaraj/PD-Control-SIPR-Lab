@@ -1,6 +1,10 @@
 # PD-Control-SIPR-Lab
 ## PD Joint Space Control of a Soft Robot in PyElastica Python (Case where 3 segments are attached in series and kept in a plane and fixed at one end)
 
+### Link to Progress Report/ Slides 
+
+https://drive.google.com/file/d/1u_5f9a9J3cb-0_Ousl0klyvUvEig7lPT/view?usp=share_link
+
 ### Dynamic Model Used: Cosserat Rod Theory
 The material of the rod was Silicone Rubber with Young's Modulus of $E = 3.79\ MPa$, density of $\rho = 1180\ kg/m^3$ and viscosity of $\eta = 12,500\ cps$.  
 Using Experimental data, i.e., performing series of simulations to record bending angle and rate of bending angle data at different constant torque inputs, the stiffness and damping of the rod was estimated to be $k = 0.942$ N-m/rad and $\beta = 0.07$ N-m-s/rad. 
